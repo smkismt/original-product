@@ -1,0 +1,155 @@
+<mxfile host="app.diagrams.net" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36">
+  <diagram name="Page-1" id="74e2e168-ea6b-b213-b513-2b3c1d86103e">
+    <mxGraphModel dx="2040" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="77e6c97f196da883-1" parent="1" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;swimlaneFillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;介護施設入所時のフロー&lt;/span&gt;" vertex="1">
+          <mxGeometry height="1010" width="990" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-2" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="介護施設利用者" vertex="1">
+          <mxGeometry height="990" width="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-16" parent="77e6c97f196da883-2" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="介護施設に入所する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-65" edge="1" parent="77e6c97f196da883-2" source="3JNQi3U7LefA2HEmcpdF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="3JNQi3U7LefA2HEmcpdF-67" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="590" y="420" as="sourcePoint" />
+            <mxPoint x="800" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-27" parent="77e6c97f196da883-2" style="rhombus;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="利用者情報が&lt;div&gt;登録済み？&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="445" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-67" parent="77e6c97f196da883-2" style="whiteSpace=wrap;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="利用者情報と前回の&lt;div&gt;持ち物一覧を表示&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;する&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="755" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-3" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="介護施設職員" vertex="1">
+          <mxGeometry height="990" width="330" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-17" parent="77e6c97f196da883-3" style="rounded=0;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="利用者&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;を検索する&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-35" parent="77e6c97f196da883-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="Yes" vertex="1">
+          <mxGeometry height="30" width="60" x="215" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-31" parent="77e6c97f196da883-3" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="No" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-3" parent="77e6c97f196da883-3" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="入所時の確認を終了する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-72" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="入所日・退所日と&lt;div&gt;持ち物を&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;確認・入力する&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-75" edge="1" parent="77e6c97f196da883-3" source="3JNQi3U7LefA2HEmcpdF-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="3JNQi3U7LefA2HEmcpdF-72" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-29" parent="77e6c97f196da883-3" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="新規利用情報・入所日・退所日・持ち物を入力する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="77e6c97f196da883-4" parent="77e6c97f196da883-1" style="swimlane;html=1;startSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="システム" vertex="1">
+          <mxGeometry height="990" width="330" x="660" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-56" parent="77e6c97f196da883-4" style="whiteSpace=wrap;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="検索結果を表示する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-44" parent="77e6c97f196da883-4" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;入力内容を保存する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-24" edge="1" parent="77e6c97f196da883-1" source="3JNQi3U7LefA2HEmcpdF-16" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;elbow=vertical;" target="3JNQi3U7LefA2HEmcpdF-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="270" as="sourcePoint" />
+            <mxPoint x="580" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-57" edge="1" parent="77e6c97f196da883-1" source="3JNQi3U7LefA2HEmcpdF-17" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;elbow=vertical;" target="3JNQi3U7LefA2HEmcpdF-56" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-2" edge="1" parent="77e6c97f196da883-1" source="3JNQi3U7LefA2HEmcpdF-44" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;elbow=vertical;" target="pfiPTe6TwHBrjftaggQX-3" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-61" edge="1" parent="77e6c97f196da883-1" source="3JNQi3U7LefA2HEmcpdF-56" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;elbow=vertical;" target="3JNQi3U7LefA2HEmcpdF-27" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-80" edge="1" parent="77e6c97f196da883-1" source="3JNQi3U7LefA2HEmcpdF-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="3JNQi3U7LefA2HEmcpdF-44" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-77" edge="1" parent="77e6c97f196da883-1" source="3JNQi3U7LefA2HEmcpdF-72" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;elbow=vertical;" target="3JNQi3U7LefA2HEmcpdF-44" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3JNQi3U7LefA2HEmcpdF-30" edge="1" parent="77e6c97f196da883-1" source="3JNQi3U7LefA2HEmcpdF-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" target="3JNQi3U7LefA2HEmcpdF-29" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-4" parent="1" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=8;align=center;swimlaneFillColor=none;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;介護施設退所時のフロー&lt;/span&gt;" vertex="1">
+          <mxGeometry height="750" width="990" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-5" parent="pfiPTe6TwHBrjftaggQX-4" style="swimlane;html=1;startSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="介護施設利用者" vertex="1">
+          <mxGeometry height="730" width="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-14" parent="pfiPTe6TwHBrjftaggQX-5" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="介護施設を退所する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-10" parent="pfiPTe6TwHBrjftaggQX-4" style="swimlane;html=1;startSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="介護施設職員" vertex="1">
+          <mxGeometry height="730" width="330" x="330" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-16" parent="pfiPTe6TwHBrjftaggQX-10" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;持ち物確認を行う&lt;/span&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-6" parent="pfiPTe6TwHBrjftaggQX-10" style="rounded=1;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="退所時に利用者を&lt;div&gt;検索する&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-39" parent="pfiPTe6TwHBrjftaggQX-10" style="whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="退所時の確認を終了する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-17" parent="pfiPTe6TwHBrjftaggQX-4" style="swimlane;html=1;startSize=20;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="システム" vertex="1">
+          <mxGeometry height="730" width="330" x="660" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-18" parent="pfiPTe6TwHBrjftaggQX-17" style="whiteSpace=wrap;html=1;rounded=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="利用者情報と入所時の&lt;div&gt;持ち物一覧を表示する&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-19" parent="pfiPTe6TwHBrjftaggQX-17" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;verticalAlign=middle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;確認内容を保存する" vertex="1">
+          <mxGeometry height="70" width="140" x="95" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-22" edge="1" parent="pfiPTe6TwHBrjftaggQX-4" source="pfiPTe6TwHBrjftaggQX-39" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;elbow=vertical;" target="pfiPTe6TwHBrjftaggQX-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="670" as="sourcePoint" />
+            <mxPoint x="825" y="945" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-23" edge="1" parent="pfiPTe6TwHBrjftaggQX-4" source="pfiPTe6TwHBrjftaggQX-18" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;edgeStyle=elbowEdgeStyle;elbow=vertical;" target="pfiPTe6TwHBrjftaggQX-16" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-24" edge="1" parent="pfiPTe6TwHBrjftaggQX-4" source="pfiPTe6TwHBrjftaggQX-16" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;elbow=vertical;" target="pfiPTe6TwHBrjftaggQX-19" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-20" edge="1" parent="pfiPTe6TwHBrjftaggQX-4" source="pfiPTe6TwHBrjftaggQX-6" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=elbowEdgeStyle;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;entryX=0.55;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;elbow=vertical;" target="pfiPTe6TwHBrjftaggQX-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="530" y="270" as="sourcePoint" />
+            <mxPoint x="950" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pfiPTe6TwHBrjftaggQX-38" edge="1" parent="pfiPTe6TwHBrjftaggQX-4" source="pfiPTe6TwHBrjftaggQX-19" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;elbow=vertical;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="pfiPTe6TwHBrjftaggQX-39" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
